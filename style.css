@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap");
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-text {
+  color: #484f5b;
+  font-family: "Lato";
+}
+
+li.nav-item {
+  padding-left: 2em;
+}
+nav.navbar.navbar-expand-lg.bg-light {
+  position: relative;
+  z-index: 99;
+}
+section {
+  padding: 0;
+  margin: 0;
+}
+section.pertama {
+  /* background-color: blueviolet; */
+  /* margin-top: -1.2em; */
+  position: relative;
+  z-index: 100;
+}
+
+.row-pertama::after {
+  background: url(img/hh.png) no-repeat;
+
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 4em;
+  /* top: 0; */
+  /* left: 1em; */
+  /* left: 5em; */
+  /* float: left; */
+  z-index: 1;
+  background-size: 100% 100%;
+}
+
+section.kedua {
+  background-color: rgb(255, 255, 255);
+  /* margin-top: -1.2em; */
+}
+.judul-isi-pertama {
+  /* font-family: "Open-Sanz"; */
+  font-family: "Open-Sanz";
+  font-weight: 600;
+  font-size: 5rem;
+  width: 100%;
+}
+.isi-pertama {
+  padding-top: 10em;
+  color: #484f5b;
+  width: 100%;
+  position: relative;
+  z-index: 99;
+}
+.isi-pertama p {
+  font-family: "Open-Sanz";
+  /* font-weight: 200; */
+  margin-top: 2em;
+  color: #484f5b;
+  font-size: 1.1rem;
+  /* position: relative;
+  z-index: 99; */
+  max-width: 30em;
+}
+
+.image-pertama {
+  width: 100%;
+  height: auto;
+}
+
+/* h1 {
+  color: aqua;
+} */
+
+/* <!-- HTML !-->
+<button class="button-5" role="button">Button 5</button> */
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #e6c8c3;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #484f5b;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Open-Sanz";
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 2em;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #d1b2ac;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* kedua */
+
+section.kedua {
+  margin-top: 4em;
+  /* height: 100%; */
+  background-color: brown;
+  position: relative;
+  /* padding: 100%; */
+  padding-bottom: 13.3em;
+}
+
+/* .kedua::before {
+  background: url(img/kedua.png) no-repeat;
+
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+} */
+
+.kedua {
+  background-image: url(img/kedua.png);
+  width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+}
+
+.isi-pertama.dan-dua {
+  /* background-color: black; */
+  padding-left: 3em;
+  padding-top: 12em;
+  /* width: 100%; */
+}
+
+/* ketiga */
+
+.ketiga {
+  /* margin-top: 4em; */
+  height: 80%;
+  /* background-color: blueviolet; */
+}
+
+.ketiga-content {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.image-ketiga-content {
+  width: 12em;
+  height: 12em;
+}
+.image-ketiga-content.beda {
+  width: 12em;
+  height: auto;
+}
+
+h4.judul-ketiga-content {
+  font-family: "Open-Sanz";
+  margin-top: 1em;
+  font-weight: 900;
+  color: #484f5b;
+  /* font-weight: bold; */
+  /* font-size: 2rem; */
+}
+.image-ketiga-content.dua {
+  padding-top: 1.5em;
+}
+.image-ketiga-content.tiga {
+  padding-top: 2.5em;
+}
+
+/* keempat */
+
+section.keempat {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 8em;
+  color: #c85000;
+  /* background-color: aqua; */
+  position: relative;
+}
+
+.dan-empat {
+  padding-left: 0;
+}
+
+/* section.keempat::before {
+  background: url(img/hiasan4.1.png) no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  
+  background-color: #c85000;
+} */
+/* background-size: 100% 100%; */
+
+.keempat::before {
+  /* background: url(img/hiasan4.1.png) no-repeat; */
+  /* content: url(img/hh4.png) no-repeat; */
+  content: "";
+  width: 100%;
+  height: 1em;
+  top: 0;
+  /* left: 35rem; */
+  position: absolute;
+  z-index: 2;
+  background-color: #d1b2ac;
+}
+.keempat::after {
+  /* background: url(img/hiasan4.1.png) no-repeat; */
+  /* content: url(img/hh4.png) no-repeat; */
+  content: "";
+  width: 100%;
+  height: 1em;
+  top: 99%;
+  /* left: 35rem; */
+  position: absolute;
+  z-index: 3;
+  background-color: #d1b2ac;
+}
+
+.content-empat {
+  /* padding-top: 5em; */
+  margin-top: 7em;
+}
+.gam-4 {
+  position: relative;
+  z-index: 10;
+}
+.c4 {
+  position: relative;
+}
+
+.gambar-content-keempat {
+  position: relative;
+  z-index: 10;
+}
+.gam-4::before {
+  background: url(img/hiasan4.2.png) no-repeat;
+
+  content: "";
+  width: 115%;
+  height: 100%;
+  position: absolute;
+  top: -15%;
+  left: -8%;
+  z-index: 1;
+  background-size: 100% auto;
+}
+.gam-4::after {
+  background: url(img/hiasan4.3.png) no-repeat;
+
+  content: "";
+  width: 115%;
+  height: 100%;
+  position: absolute;
+  top: 70%;
+  left: -8%;
+  z-index: 11;
+  background-size: 100% auto;
+}
+
+/* kelima */
+
+section.kelima {
+  width: auto;
+  height: 100%;
+  min-height: 800px;
+  /* min-height: 500px; */
+  /* background-color: #c85000; */
+  position: relative;
+  /* background-image: url(img/kelima.png); */
+}
+section.kelima::before {
+  background: url(img/kelima.png) no-repeat;
+  content: "";
+  width: 100%;
+  top: 0;
+  height: 800px;
+  position: absolute;
+  /* z-index: -99; */
+  /* background-color: #c85000; */
+  /* content: url(img/kelima.png) no-repeat; */
+  /* z-index: 99; */
+  background-size: 100% 100%;
+}
+
+.content-kelima {
+  width: auto;
+  height: 500px;
+  /* background-color: #c85000; */
+}
+h1.judul-kelima::before {
+  background: url(img/5.1.png) no-repeat;
+  content: "";
+  width: 100%;
+  top: 27%;
+  left: -8%;
+  height: 100%;
+  position: absolute;
+  z-index: -99;
+  /* background-color: #c85000; */
+  /* content: url(img/kelima.png) no-repeat; */
+  /* z-index: 99; */
+  /* background-size: 100% 100%; */
+}
+
+/* keenam */
+
+section.keenam {
+  /* background-color: #c85000; */
+  position: relative;
+  /* padding-top: 50%; */
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+}
+section.keenam::before {
+  background: url(img/6bg-1.png) no-repeat;
+  content: "";
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  /* z-index: 99; */
+  /* background-color: #c85000; */
+  /* content: url(img/kelima.png) no-repeat; */
+  /* z-index: 99; */
+  background-size: 100% 100%;
+}
+
+.isi-keenam {
+  padding: 3em 0 1em;
+}
+
+.isi-enam {
+  padding: 1% 15% 0%;
+}
+.img-keenam {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 350px;
+}
+.con-enem {
+  padding: 1em 1em;
+  /* margin: 0 10px; */
+}
+
+.dan-enam {
+  background-color: #fff;
+  /* background-color: #e6c8c3; */
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.isi-kenama-content {
+  padding: 5% 5%;
+  color: #484f5b;
+  font-family: "Lato";
+}
+.isi-kenama-content h2 {
+  font-weight: 500;
+}
+.img6 {
+  width: 100%;
+  height: 100%;
+}
+section.ketujuh {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #e6c8c3;
+}
+.row-ketujuh {
+  padding-top: 10rem;
+}
+.content-ketuju {
+  padding: 1em 1em;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+
+  /* vertical-align: sub; */
+}
+.content-ketuju ul {
+  padding: 0;
+  margin: 0;
+}
+
+.isi-ketujuh h1 {
+  color: #484f5b;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+.isiccon-ketujuh {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.content-ketuju ul li {
+  background-color: #484f5b;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.content-ketuju ul li i {
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.gmbar-ketujugh img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1301px;
+  }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+  .row-pertama::after {
+    display: none;
+  }
+  .isi-pertama {
+    padding-top: 0;
+    color: #484f5b;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding: 0 1em;
+  }
+  .judul-isi-pertama {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .isi-pertama p {
+    text-align: center;
+    max-width: none;
+  }
+
+  .button-5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-6.col-sm-12.bb-pertama {
+    position: absolute;
+  }
+  .col-md-6.col-sm-12.cc-pertama {
+    opacity: 0.5;
+  }
+  .kedua {
+    background-position: 83% 50%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    /* opacity: 0.5; */
+  }
+  section.kedua::after {
+    content: "";
+    width: 100%;
+    top: 0;
+    height: 800px;
+    position: absolute;
+    /* z-index: 999; */
+    background-color: #ffffff;
+    opacity: 0.5;
+    /* content: url(img/kelima.png) no-repeat; */
+    /* z-index: 99; */
+    background-size: 100% 100%;
+  }
+  .isi-pertama.dan-dua.text-center.cc-kedua {
+    padding-top: 5em;
+  }
+
+  .isi-pertama.dan-dua {
+    /* background-color: black; */
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-top: 0; */
+    /* width: 100%; */
+  }
+  .isi-pertama.dan-empat.cc-ke-empat.text-center {
+    padding-top: 3em;
+  }
+
+  /* kelima */
+  section.kelima::before {
+    background-position: 16% 50%;
+    /* width: 100%;
+    height: auto; */
+    background-size: cover;
+  }
+  .isi-pertama.dan-empat.text-center {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .row-pertama::after {
+    display: none;
+  }
+  .isi-pertama {
+    padding-top: 0;
+    color: #484f5b;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding: 0 1em;
+  }
+  .judul-isi-pertama {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .isi-pertama p {
+    text-align: center;
+    max-width: none;
+  }
+
+  .button-5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-md-6.col-sm-12.bb-pertama {
+    position: absolute;
+    padding-top: 5em;
+  }
+  .col-md-6.col-sm-12.cc-pertama {
+    opacity: 0.5;
+  }
+
+  .kedua {
+    background-position: 75% 50%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  section.kedua::after {
+    content: "";
+    width: 100%;
+    top: 0;
+    height: 800px;
+    position: absolute;
+    /* z-index: 999; */
+    background-color: #ffffff;
+    opacity: 0.5;
+    /* content: url(img/kelima.png) no-repeat; */
+    /* z-index: 99; */
+    background-size: 100% 100%;
+  }
+
+  .isi-pertama.dan-dua {
+    /* background-color: black; */
+    padding-left: 0;
+    padding-right: 0;
+    /* padding-top: 0; */
+    /* width: 100%; */
+  }
+  .isi-pertama.dan-dua.cc-kedua.text-center {
+    padding-top: 2em;
+  }
+  .isi-pertama.dan-empat.cc-ke-empat.text-center {
+    padding-top: 3em;
+  }
+
+  .cc-pertama {
+    height: 30rem;
+    min-height: 30rem;
+  }
+  /* kelima */
+  section.kelima::before {
+    background-position: 16% 50%;
+    /* width: 100%;
+    height: auto; */
+    background-size: cover;
+  }
+  .isi-pertama.dan-empat.text-center {
+    padding-top: 3rem;
+  }
+}
